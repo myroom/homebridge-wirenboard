@@ -2,7 +2,7 @@
   "name": "homebridge-wirenboard",
   "version": "1.0.0",
   "description": "An example dynamic platform plugin for homebridge written in Typescript",
-  "main": "dist/dynamic-platform.js",
+  "main": "src/dynamic-platform.js",
   "scripts": {
     "clean": "rimraf ./src",
     "build": "rimraf ./src",
@@ -30,8 +30,5 @@
     "@types/node": "10.17.19",
     "homebridge": "^1.0.4",
     "typescript": "^3.8.3"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
