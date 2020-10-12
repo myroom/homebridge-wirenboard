@@ -13,7 +13,7 @@ import {
   PlatformConfig,
 } from "homebridge";
 
-const PLUGIN_NAME = "homebridge-dynamic-platform-example";
+const PLUGIN_NAME = "homebridge-wirenboard";
 const PLATFORM_NAME = "ExampleDynamicPlatform";
 
 /*
