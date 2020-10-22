@@ -14,7 +14,7 @@ import {
 } from "homebridge";
 
 const PLUGIN_NAME = "homebridge-wirenboard";
-const PLATFORM_NAME = "ExampleDynamicPlatform";
+const PLATFORM_NAME = "WirenboardDynamicPlatform";
 
 /*
  * IMPORTANT NOTICE
@@ -63,7 +63,7 @@ class ExampleDynamicPlatform implements DynamicPlatformPlugin {
 
     // probably parse config or something here
 
-    log.info("Example platform finished initializing!");
+    log.info("Wirenboard platform finished initializing!");
 
     /*
      * When this event is fired, homebridge restored all cached accessories from disk and did call their respective
@@ -72,7 +72,7 @@ class ExampleDynamicPlatform implements DynamicPlatformPlugin {
      * This event can also be used to start discovery of new accessories.
      */
     api.on(APIEvent.DID_FINISH_LAUNCHING, () => {
-      log.info("Example platform 'didFinishLaunching'");
+      log.info("Wirenboard platform 'didFinishLaunching'");
 
       // The idea of this plugin is that we open a http service which exposes api calls to add or remove accessories
       this.createHttpService();
