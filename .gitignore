@@ -1,6 +1,7 @@
-
+# OS generated files #
+######################
 .DS_Store
-
+.DS_Store?
 
 # Created by .ignore support plugin (hsz.mobi)
 ### HAP-NodeJS files
