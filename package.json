@@ -2,10 +2,8 @@
   "name": "homebridge-wirenboard",
   "version": "1.0.0",
   "description": "An example dynamic platform plugin for homebridge written in Typescript",
-  "main": "src/dynamic-platform.js",
+  "main": "src/dynamic-platform.ts",
   "scripts": {
-    "clean": "rimraf ./src",
-    "build": "rimraf ./src",
     "prepublishOnly": "npm run build",
     "postpublish": "npm run clean",
     "test": "echo \"Error: no test specified\" && exit 1"
